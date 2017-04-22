@@ -58,5 +58,7 @@ grow stage
 ## Further reading
 
 [Quick glance at Google's AMP project](http://rahul.my/blog/post/building-future-of-web-beautiful-and-high-performing-with-amp).
+
 Official AMP project [page](https://www.ampproject.org/).
+
 Official Grow [page](https://grow.io).
