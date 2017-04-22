@@ -1,0 +1,16 @@
+<div class="footer">
+  <div class="nav">
+    <ul class="nav__items">
+      {% if podspec.meta.social.linkedin %}
+      <li class="nav__items__item">
+        <a href="https://www.linkedin.com/in/{{podspec.meta.social.linkedin}}/" target="_blank">LinkedIn</a>
+      </li>
+      {% endif %}
+      {% if podspec.meta.social.twitter %}
+      <li class="nav__items__item">
+        <a href="https://www.twitter.com/{{podspec.meta.social.twitter}}/" target="_blank">Twitter</a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+</div>
