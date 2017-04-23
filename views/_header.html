@@ -17,23 +17,3 @@
     </div>
   </div>
 </div>
-
-<amp-sidebar id="sidebar"
-  layout="nodisplay"
-  side="right">
-  <amp-img class="amp-close-image"
-    src="/assets/static/images/ic_close_black_18dp_2x.png"
-    width="20"
-    height="20"
-    alt="close sidebar"
-    on="tap:sidebar.close"
-    role="button"
-    tabindex="0"></amp-img>
-  <ul>
-    {% for item in g.docs('pages') %}
-    <li>
-      <a href="{{item.url.path}}">{{item.title}}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</amp-sidebar>

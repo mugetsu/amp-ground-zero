@@ -61,6 +61,13 @@
   }
 }
 
+.banner-img {
+  @media #{$desktop} {
+    max-width: 900px;
+    margin: auto;
+  }
+}
+
 #sidebar {
   width: 200px;
   li {
